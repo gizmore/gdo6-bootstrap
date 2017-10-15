@@ -13,6 +13,8 @@ final class Module_Bootstrap extends GDO_Module
 		$min = Module_Core::instance()->cfgMinifyJS() === 'no' ? '' : '.min';
 		$this->addBowerJavascript("bootstrap/dist/js/bootstrap$min.js");
 		$this->addBowerCSS("bootstrap/dist/css/bootstrap$min.css");
+
+		$this->addCSS("css/gdo-bootstrap.css");
 	}
 	
 }

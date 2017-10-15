@@ -1,0 +1,32 @@
+.gdt-list-item {
+	border: 1px solid #228;
+}
+.gdt-list-item > a {
+	display: inline-block;
+}
+.gdt-list-item > a > * {
+	
+	display: block;
+	}
+.gdt-list-item  .gdt-actions {
+	display: block;
+	float: right;
+}
+
+
+/** Table **/
+.gdo-table th {
+	position: relative;
+	text-align: center;
+}
+.gdo-table th label {
+	width: 100%;
+}
+.gdo-table th input {
+	margin: auto;
+	display:block;
+}
+
+.gdo-table td.gdt-num { text-align: right; font-family: monospace; }
+.gdo-table td.gdo-gdt_checkbox,
+.gdo-table td.gdo-gdt_country { text-align: center; }
