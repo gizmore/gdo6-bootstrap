@@ -22,7 +22,8 @@
 .gdo-table th label {
 	width: 100%;
 }
-.gdo-table th input {
+.gdo-table th input,
+.gdo-table th select {
 	margin: auto;
 	display:block;
 }
