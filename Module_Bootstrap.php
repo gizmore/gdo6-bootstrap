@@ -8,7 +8,7 @@ final class Module_Bootstrap extends GDO_Module
 {
 	public $module_priority = 10;
 	
-	public function getDependencies() { return ['JQuery']; }
+	public function getDependencies() { return ['JQuery', 'Moment']; }
 	
 	public function onIncludeScripts()
 	{
