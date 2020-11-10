@@ -6,7 +6,7 @@ use GDO\Core\Module_Core;
 
 final class Module_Bootstrap extends GDO_Module
 {
-	public $module_priority = 10;
+	public $module_priority = 15;
 	
 	public function getDependencies() { return ['JQuery', 'Moment']; }
 	
