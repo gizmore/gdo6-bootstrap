@@ -15,7 +15,7 @@ If you want to install the module without the wizard you can use these commands.
     cd Bootstrap
     yarn install
     cd gdo6/
-    php gdo.php install Bootstrap
+    php gdoadm.php install Bootstrap
 
 ## Configuration
 You can disable the asset inclusion in case you use multiple themes with different dependencies.
