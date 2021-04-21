@@ -12,3 +12,4 @@
 .gdo-table td.gdt-num { text-align: right; font-family: monospace; }
 .gdo-table td.gdo-gdt_checkbox,
 .gdo-table td.gdo-gdt_country { text-align: center; }
+.gdo-table .gdo-tblorder { display: block; }
