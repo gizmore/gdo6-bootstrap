@@ -2,8 +2,8 @@
 namespace GDO\Bootstrap;
 
 use GDO\Core\GDO_Module;
-use GDO\Core\Module_Core;
 use GDO\DB\GDT_Checkbox;
+use GDO\Javascript\Module_Javascript;
 
 /**
  * Bootstrap4 includes.
@@ -11,8 +11,8 @@ use GDO\DB\GDT_Checkbox;
  * Has JQuery and Moment dependency
  * 
  * @author gizmore
- * @version 6.10
- * @since 6.06
+ * @version 6.10.1
+ * @since 6.6.0
  */
 final class Module_Bootstrap extends GDO_Module
 {
@@ -38,7 +38,7 @@ final class Module_Bootstrap extends GDO_Module
 	
 	public function onIncludeBootstrap4()
 	{
-	    $min = Module_Core::instance()->jsMinAppend();
+	    $min = Module_Javascript::instance()->jsMinAppend();
 	    
 	    $this->addBowerJavascript("bootstrap/dist/js/bootstrap.bundle$min.js");
 	    $this->addBowerCSS("bootstrap/dist/css/bootstrap$min.css");

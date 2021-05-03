@@ -13,3 +13,6 @@
 .gdo-table td.gdo-gdt_checkbox,
 .gdo-table td.gdo-gdt_country { text-align: center; }
 .gdo-table .gdo-tblorder { display: block; }
+
+/** Form **/
+.gdt-form > form > span.gdo-gdt_link { margin-bottom: 1rem; }
