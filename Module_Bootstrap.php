@@ -11,7 +11,7 @@ use GDO\Javascript\Module_Javascript;
  * Has JQuery and Moment dependency
  * 
  * @author gizmore
- * @version 6.10.1
+ * @version 6.10.4
  * @since 6.6.0
  */
 final class Module_Bootstrap extends GDO_Module
