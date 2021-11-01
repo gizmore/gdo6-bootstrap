@@ -40,7 +40,7 @@ final class Module_Bootstrap extends GDO_Module
 	{
 	    $min = Module_Javascript::instance()->jsMinAppend();
 	    
-	    $this->addBowerJavascript("bootstrap/dist/js/bootstrap.bundle$min.js");
+	    $this->addBowerJS("bootstrap/dist/js/bootstrap.bundle$min.js");
 	    $this->addBowerCSS("bootstrap/dist/css/bootstrap$min.css");
 	    
 	    $this->addCSS("css/gdo-bootstrap.css");
