@@ -5,10 +5,10 @@
 .gdt-list-item .gdt-actions { display: block; float: right; }
 
 /** Table **/
-.gdt-table th { position: relative; text-align: center; }
+.gdt-table th { position: relative; text-align: center; padding: 2px 6px; }
 .gdt-table th label { width: 100%; white-space: nowrap; }
 .gdt-table th input,
-.gdt-table th select { margin: auto; display:block; }
+.gdt-table th select { margin: auto; display:block; min-width: 64px; }
 .gdt-table td.gdt-num { text-align: right; font-family: monospace; }
 .gdt-table td.gdt-checkbox,
 .gdt-table td.gdt-country { text-align: center; }
